@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body ._1slide {
+  display: grid;
+  height: 937px;
+  background-repeat: round;
+  color: white;
+  background-image: url("img/bg1.png");
+  object-fit: cover;
+  justify-content: center;
+  padding-bottom: 218px;
+}
+body ._1slide ._1slide__header {
+  align-items: center;
+  width: 1210px;
+  height: 156px;
+  display: flex;
+  justify-content: space-between;
+}
+body ._1slide ._1slide__header ._1slide__headerleft {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+body ._1slide ._1slide__header ._1slide__headerleft nav._1slide__menu {
+  /*padding: 40px 0px 0px 0px;*/
+  display: flex;
+}
+body ._1slide ._1slide__header ._1slide__headerleft nav._1slide__menu ._1slide__menuitem {
+  font-size: 15px;
+  padding: 0 10px 0 10px;
+}
+body ._1slide ._1slide__headerright {
+  display: flex;
+  justify-content: end;
+}
+body ._1slide ._1slide__main {
+  justify-self: center;
+  text-align: center;
+  width: 650px;
+}
+body ._1slide ._1slide__main ._1slide__title {
+  padding-top: 50px;
+  font-size: 74px;
+}
+body ._1slide ._1slide__main ._1slide__subtitle {
+  font-size: 28px;
+  padding: 50px 0 0 0;
+}
+body ._1slide ._1slide__main ._1slide__buttonblock {
+  padding: 100px 0 16px 0;
+}
+body ._1slide ._1slide__main ._1slide__buttonblock ._1slide__button {
+  padding: 10px 30px 10px 30px;
+  background-color: #2091F9;
+  border-radius: 35px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
