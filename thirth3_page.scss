@@ -1,0 +1,37 @@
+._3slide {
+padding-top: 300px;
+  display: grid;
+  justify-content: center;
+
+
+
+  ._3slide__container{
+
+    display: flex;
+  /*width: 1244px;*/
+  height: 473px;
+
+  ._3slide__leftside {
+    display: grid;
+    width: 452px;
+    height: 357px;
+    align-items: center;
+    .leftside__title.title {
+      .leftside__subtitle {}
+      .leftside__buttonconteiner {
+        button.leftside__button {
+
+        }
+      }
+    }
+  }
+  ._3slide__rside {
+
+    .rside__img {
+      background-image: url("img/3_img1.svg");
+      background-repeat: no-repeat;
+      width: 625px;
+      height: 350px;
+    }
+  }
+}}

@@ -13,10 +13,11 @@
       font-size: 48px;
     }
 
+
     ._2slide__subtitle {
-      padding-top: 10px;
-      font-size: 28px;
+
     }
+
   }
 
   ._2slide__items {
@@ -47,6 +48,7 @@
         font-weight: bold;
         padding-top: 30px;
       }
+
 
       &__subtitle {
         padding-top: 50px;
@@ -90,4 +92,10 @@
   }
 }
 
-
+.title {
+  font-size: 48px;
+}
+.subtitle{
+  padding-top: 30px;
+  font-size: 28px;
+}
