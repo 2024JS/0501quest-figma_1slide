@@ -17,10 +17,13 @@ padding-top: 300px;
     height: 357px;
     align-items: center;
     .leftside__title.title {
-      .leftside__subtitle {}
+
+      .leftside__subtitle {
+        padding-top: 100px;
+      }
       .leftside__buttonconteiner {
         button.leftside__button {
-
+          margin: 80px 0 0 0;
         }
       }
     }

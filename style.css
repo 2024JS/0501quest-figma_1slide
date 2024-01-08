@@ -228,6 +228,12 @@ body ._1slide ._1slide__main ._1slide__buttonblock {
   height: 357px;
   align-items: center;
 }
+._3slide ._3slide__container ._3slide__leftside .leftside__title.title .leftside__subtitle {
+  padding-top: 100px;
+}
+._3slide ._3slide__container ._3slide__leftside .leftside__title.title .leftside__buttonconteiner button.leftside__button {
+  margin: 80px 0 0 0;
+}
 ._3slide ._3slide__container ._3slide__rside .rside__img {
   background-image: url("img/3_img1.svg");
   background-repeat: no-repeat;
