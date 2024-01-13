@@ -76,14 +76,14 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 body ._1slide {
   display: grid;
-  width: 100%;
   height: auto;
   color: white;
-  background-image: url("img/bg1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  justify-content: center;
   padding-bottom: 218px;
+  background-image: url("img/bg1.png");
+  width: 100%;
+  justify-content: center;
+  background-size: 100% 100%;
+  background-position: center 0;
 }
 body ._1slide__header {
   align-items: center;
